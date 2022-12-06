@@ -1,0 +1,49 @@
+ 
+.drawercat:hover span {
+    color: #f90;
+
+}
+.bslidder button{
+    background-color:#f90 !important;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+/* .bslidder:hover button{
+    background-color:red !important;
+      
+  }
+  
+
+  .bslidder:hover button::after{
+    content: ' \27A4' !important;
+    transition: .25s ease-in !important;
+  }
+ */
+.bottom-slider img{
+  height: 250px;
+}
+.bottom-slider{
+  margin-top: -3%;
+}
+.top-banner img{
+  height: 350px;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .bottom-slider img{
+    height: 144px;
+  }
+  .top-banner img{
+    height: 110px;
+    margin-top: 3px;
+  }
+  .bottom-slider{
+    margin-top: -13%;
+  }
+  .mobile-img-auto-height{
+    margin-top: -5%;
+  }
+}

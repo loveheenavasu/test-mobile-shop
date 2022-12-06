@@ -1,0 +1,286 @@
+.nav-searchbar-wrapper {
+    display: flex;
+}
+.nav-searchbar {
+    display: block;
+    padding: 2px 10px 5px 10px;
+    position: relative;
+    height: 50px;
+    width: 100%;
+    background: #101622;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    margin-bottom: 0;
+    flex: 1;
+    z-index: inherit;
+}
+.nav-fill {
+    width: auto;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.nav-search-field {
+    height: 44px;
+    margin: 0;
+    position: relative;
+    background: #fff;
+}
+.nav-search-field, .nav-search-field .nav-input, .nav-search-submit, .nav-search-submit .nav-input {
+    -webkit-border-radius: 8px 8px 8px 8px;
+    -moz-border-radius: 8px 8px 8px 8px;
+    border-radius: 8px 8px 8px 8px;
+    border-radius: 0\9;
+}
+
+/* button, input, select, textarea {
+    margin: 0;
+    font-size: 100%;
+    vertical-align: middle;
+} */
+
+/* .a-input-text, input[type=text], input[type=search], input[type=number], input[type=tel], input[type=password], input[type=date], input[type=email] {
+    background-color: #fff;
+    height: 3.1rem;
+    padding: .3rem .7rem;
+    line-height: normal;
+} */
+
+/* .a-input-text, input[type=text], input[type=search], input[type=number], input[type=tel], input[type=password] {
+    height: 4.3rem;
+    padding: 0 1.1rem;
+    line-height: normal;
+} */
+
+.nav-search-field .nav-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    direction: ltr;
+    display: block;
+    padding: 0 95px 0 10px;
+    color: #000;
+    font-size: 15px;
+    font-family: inherit;
+    border: 0;
+    outline: 0;
+    -webkit-box-shadow: 0 1px 0 0 rgba(255,255,255,.5), inset 0 1px 0 0 rgba(0,0,0,.07);
+    -moz-box-shadow: 0 1px 0 0 rgba(255,255,255,.5),inset 0 1px 0 0 rgba(0,0,0,.07);
+    box-shadow: 0 1px 0 0 rgba(255,255,255,.5), inset 0 1px 0 0 rgba(0,0,0,.07);
+}
+
+.nav-search-field, .nav-search-field .nav-input, .nav-search-submit, .nav-search-submit .nav-input {
+    -webkit-border-radius: 8px 8px 8px 8px;
+    -moz-border-radius: 8px 8px 8px 8px;
+    border-radius: 8px 8px 8px 8px;
+    border-radius: 0\9;
+}
+
+.nav-sprite-v3 .nav-sprite {
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/new-nav-sprite-global-1x_blueheaven-fluid._CB406836994_.png);
+    background-repeat: no-repeat;
+}
+
+.nav-sprite {
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/new-nav-sprite-global-2x_blueheaven-fluid._CB406837170_.png);
+    background-size: 275px;
+}
+
+.nav-right {
+    position: relative;
+    float: right;
+    width: auto;
+    display: inline-block;
+}
+
+.nav-searchbar .nav-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.nav-search-submit {
+    position: relative;
+    height: 44px;
+    width: 50px;
+    margin: 2px 10px 5px 5px;
+    border: 0;
+    cursor: pointer;
+    -webkit-box-shadow: inset,0,1px,0,0,rgba(255,255,255,.15);
+    -moz-box-shadow: inset,0,1px,0,0,rgba(255,255,255,.15);
+    box-shadow: inset,0,1px,0,0,rgba(255,255,255,.15);
+    background: #f2a51f;
+    background: #f2a51f;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFCBB6A', endColorstr='#FFFCBB6A', GradientType=0 );
+    background: linear-gradient(to bottom,#f2a51f,#f2a51f);
+    background: -moz-linear-gradient(top,#f2a51f,#f2a51f);
+    background: -webkit-linear-gradient(top,#f2a51f,#f2a51f);
+    background: -o-linear-gradient(top,#f2a51f,#f2a51f);
+    background: -ms-linear-gradient(top,#f2a51f,#f2a51f);
+}
+
+.nav-search-field, .nav-search-field .nav-input, .nav-search-submit, .nav-search-submit .nav-input {
+    -webkit-border-radius: 8px 8px 8px 8px;
+    -moz-border-radius: 8px 8px 8px 8px;
+    border-radius: 8px 8px 8px 8px;
+    border-radius: 0\9;
+}
+
+/* button, input, select, textarea {
+    margin: 0;
+    font-size: 100%;
+    vertical-align: middle;
+} */
+
+/* input, select, textarea {
+    -webkit-transition: all .1s linear;
+    transition: all .1s linear;
+    line-height: 1.35;
+    color: #0F1111;
+} */
+
+/* button, input[type=button], input[type=reset], input[type=submit] {
+    cursor: pointer;
+    -webkit-appearance: button;
+} */
+
+.nav-search-submit .nav-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 10;
+    border: 0;
+    background-color: transparent;
+    text-indent: -1000px;
+    line-height: 1px;
+}
+
+.nav-search-field, .nav-search-field .nav-input, .nav-search-submit, .nav-search-submit .nav-input {
+    -webkit-border-radius: 8px 8px 8px 8px;
+    -moz-border-radius: 8px 8px 8px 8px;
+    border-radius: 8px 8px 8px 8px;
+    border-radius: 0\9;
+}
+
+.nav-sprite-v3 .nav-sprite {
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/new-nav-sprite-global-1x_blueheaven-fluid._CB406836994_.png);
+    background-repeat: no-repeat;
+}
+
+.nav-search-submit .nav-icon {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    pointer-events: none;
+    background-position: -73px -239px;
+    width: 27px;
+    height: 25px;
+    -webkit-filter: invert(100%);
+}
+
+.nav-sprite {
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/new-nav-sprite-global-2x_blueheaven-fluid._CB406837170_.png);
+    background-size: 275px;
+}
+
+@media (min-width: 500px){
+    .nav-searchbar-wrapper {
+        display: none;
+    }
+
+}
+
+
+
+body.aa-Detached {
+    /* fixed freeze issue on HomePage and SuggestionPage */
+    height: 100% !important;
+}
+
+div.aa-DetachedSearchButtonIcon{
+    order: 4;
+    background-color: #fbb403;
+    border: 0px solid black;
+    border-radius: 10px;
+    padding: 0px;
+    /* float: left; */
+    visibility: hidden;
+}
+
+button.aa-DetachedSearchButton{
+    padding-right: 0px;
+    border-radius: 50px;
+    font-size: 13px;
+    height: 35px;
+    align-items: center;
+}
+button.aa-DetachedSearchButton::before{
+
+    content: '\26B2 \00a0 ';
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    display: block;
+    font-size: 24px;
+    margin-top: 3px;
+}
+
+
+div.aa-DetachedSearchButtonPlaceholder{
+    width: 100% !important;
+}
+
+
+div.aa-InputWrapper>input.aa-Input{
+    padding-right: calc(14% + 10px) !important;
+    z-index: 1;
+    width: 114% !important;
+} 
+
+@media (max-width: 500px) {
+    div.aa-InputWrapper>input.aa-Input{
+        padding-right: calc(14% + 10px) !important;
+        z-index: 1;
+        width: 114% !important;
+    } 
+}
+
+
+.bar {
+    position: relative;
+    top: 0;
+    color: white;
+    left: 0;
+    /* overflow-x: auto; */
+    white-space: nowrap;
+   box-sizing: border-box;
+   height: 20px;	
+  }
+  
+  .bar_content {
+      /* padding-top: 10px; */
+    display: block; 
+    white-space: nowrap;
+    font-weight: bold;
+    /* Important to give the content a width */
+  
+    width: 100%;
+    transform: translateX(100%);
+
+    animation: move 18s infinite linear;
+  }
+  @media only screen and (min-width: 600px) {
+    .bar_content {
+        animation: move 30s linear infinite;
+        
+  }
+}
+  
+  /* Create the animation */
+  @keyframes move {
+    to { transform: translateX(-100%); }
+  }

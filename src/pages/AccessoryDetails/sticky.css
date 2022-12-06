@@ -1,0 +1,62 @@
+.scroll{
+    position:fixed;
+	z-index: 1000;
+	bottom:80px;
+	left:0;
+	color:#FFF;
+	width:"100%";
+	right:0;
+}
+.extra{
+	padding-top: 20%;
+}
+.buy-now{
+	width: 180px;
+	height: 50%;
+}
+
+.add-to-cart{
+	width: 120px;
+	height: 50%;
+}
+.acc-price{
+	font-weight: bold;
+	text-align: center;
+}
+.cross{
+	background-color: #f90;
+	color: white;
+	border: none;
+	bottom: 0;
+	margin-left:42px;
+	font-weight: bold;
+	font-size:12px;	
+}
+.thumbnaily-box{
+	margin-right: -10px;
+	width:50px;
+	display: inline;
+	text-align: center;
+}
+.pd-page{
+	margin-top: -20%;
+}
+@media only screen and (min-width: 992px) {
+	.img-box{
+		height: 600px;
+		align-content: center;
+		padding-top: 0px;
+		margin-right: 1000px;
+	}
+	.thumbnaily-box{
+		margin-right: -90px;
+	}
+	.cross{
+	bottom: 0;
+	border: black solid;
+	margin-left:10px;
+	}
+	.pd-page{
+		margin-top: -10%;
+	}
+} 

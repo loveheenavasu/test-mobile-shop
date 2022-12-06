@@ -1,0 +1,61 @@
+.terms{
+    padding: 5% 5% 5% 5%;
+}
+.terms strong{
+    font-weight: bolder;
+    font-size: 18px;
+}
+.terms p{
+    font-size: 16px;
+}
+.terms .heading{
+    font-weight: bolder;
+    font-size: 24px;
+    text-align: center;
+}
+.faqs{
+    padding: 5% 5% 5% 5%;
+}
+.faqs .heading{
+    font-weight: bolder;
+    font-size: 24px;
+    text-align: center;
+}
+.faqs .g-title{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.faqs .title{
+    font-size: 16px;
+    font-weight: bold;
+}
+.faqs .col-md-9{
+    padding-bottom: 2%;
+}
+.faqs .faq-item{
+    padding-bottom: 3%;
+}
+.faqs .desc{
+    padding-top: 0px;
+    font-size: 16px;
+}
+.aboutUs{
+    padding: 5% 5% 5% 5%;
+}
+.aboutUs .vc_custom_heading{
+    font-weight: bolder;
+    font-size: 24px;
+    text-align: center;
+}
+.aboutUs .desc{
+    font-size: 16px;
+}
+.aboutUs .vc_custom_sub-heading{
+    font-weight: bolder;
+    font-size: 22px;
+    text-align: center;
+}
+.faqs strong,.faqs p, .faqs ol{
+    font-size: 16px !important;
+}

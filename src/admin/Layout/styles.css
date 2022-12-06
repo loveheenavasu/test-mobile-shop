@@ -1,0 +1,128 @@
+.navigation--list {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 10px 30px;
+    border-top: 1px solid #ccc;
+    background-color: #131821;
+}
+.bottom__menu{
+    position: fixed;
+}
+.whatsapp-img{
+    display:flex;
+    justify-content: center;
+    margin-bottom:2%;
+    margin-top:2%;
+}
+.call-item{
+    width:20%;
+}
+
+
+@media (max-width: 1199px){
+    .navigation--list {
+        display: block;
+    }
+}
+
+.navigation__item:hover{
+    color: black;
+}
+.navigation--list .navigation__content {
+    max-width: 400px;
+    margin: 0 auto;
+    display: -moz-box;
+    display: flex;
+    -moz-box-orient: horizontal;
+    -moz-box-direction: normal;
+    flex-flow: row nowrap;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    -moz-box-align: center;
+    align-items: center;
+}
+.navigation--list .navigation__item {
+    text-align: center;
+    color: #f2a51f;
+}
+.layout--default a {
+    color: inherit;
+}
+.site-content a {
+    color: inherit;
+}
+a:not([href]) {
+    color: inherit;
+    text-decoration: none;
+}
+a, button, input, select, textarea {
+    outline: none;
+}
+.bottom__menu a {
+    position: relative;
+    text-decoration: none;
+    transition: all .4s ease;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    transition: color .3s;
+    color: #007bff;
+    -webkit-text-decoration-skip: objects;
+}
+.bottom__menu a, p span {
+    color: inherit;
+}
+.bottom__menu a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+[role=button], a, area, button, input:not([type=range]), label, select, summary, textarea {
+    touch-action: manipulation;
+}
+.navigation--list .navigation__item i {
+    font-size: 24px;
+    color: #f2a51f;
+}
+[class*=" icon-"], [class^=icon-] {
+    font-family: Linearicons;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    -o-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.navigation--list .navigation__item {
+    text-align: center;
+    color: #f2a51f;
+}
+.layout--default a {
+    color: inherit;
+}
+.site-content a {
+    color: inherit;
+}
+.navigation--list .navigation__item span {
+    display: block;
+    color: #f2a51f;
+}
+
+
+.navigation--list .navigation__item span:hover{
+    color: black;
+}
+.navigation--list .navigation__item i:hover{
+    color: black;
+}

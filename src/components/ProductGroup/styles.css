@@ -1,0 +1,123 @@
+
+.tab-text{
+    font-weight: 800;
+    font-size: 16px;
+    padding-bottom: 16px;
+    color: black;
+}
+.tabtext{
+    border: #f90 solid;
+    border-width: thin;
+    border-radius: 0%;
+    cursor: pointer;
+    color:#f90;
+    font-weight: 500;
+    font-size: 14px;
+}
+.tabtext_new{
+    border: #f90 solid;
+    border-width: thin;
+    border-radius: 0%;
+    cursor: pointer;
+    color:#f90;
+    font-weight: 500;
+    font-size: 14px;
+}
+.selected {
+    font-weight: 800;
+    font-size: 16px;
+    color: #f90;
+}
+.select {
+    /* border-radius: 0%;
+    border: #f90;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #f90;
+    border-width: 2px; */
+    border: #f90 solid;
+    border-width: thick;
+    border-radius: 0%;
+    cursor: pointer;
+    color:#f90;
+    font-weight: 500;
+    font-size: 14px;
+}
+.tab{
+    border: none;
+   border-right:gray solid; 
+   border-bottom: gray solid; 
+   border-width: thin;
+   font-weight: 600;
+   font-size: 16px;
+   padding-bottom: 16px;    
+}
+.nav-custom .hover{
+    background-color: blue;
+}
+.navbar-nav > .active > a {
+    color: aqua;
+    background-color: chartreuse;    
+  }
+  .navbar-nav > .active > a {
+    color: red
+  }
+.tabtext:after{
+    font-family: "Material Icons";
+}
+.tabtext:after{
+    content: "\e7f7";
+    font-size:19px;
+    padding-left: 10px;
+    display: inline-block;
+  transform: rotate(-30deg);
+ }
+ .tabtext_new:after{
+    font-family: "Material Icons";
+ }
+
+.tabtexti:before{
+    font-family: "Material Icons"; 
+}
+.tabtexti:before{
+    content: "\e7f7";
+    font-size:19px;
+    padding-right: 10px;
+    display: inline-block;
+    transform: rotate(-30deg);
+}
+ .tabtexti{
+    /* border: none; */
+    border-bottom: #f90 solid;
+    border-width: thin;
+    border-radius: 0%;
+    cursor: pointer;
+    color:#f90;
+    font-weight: 500;
+    font-size: 14px;
+}
+@media only screen and (max-width: 768px) {
+    .tabtext{
+
+        white-space: nowrap;
+        font-size: 12px;
+    }
+    .tabtext_new{
+        white-space: nowrap;
+        font-size: 12px;
+    }
+ 
+    .select {
+       font-size: 12px;
+       white-space: nowrap;
+    }
+    .tabtext:after{
+        font-size: 10px;
+        padding-left: 5px;
+   
+     }
+     .tabtexti:before{
+        font-size: 10px;
+        padding-right: 5px;
+     }
+}

@@ -1,0 +1,167 @@
+input {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  width: 300px;
+}
+.no-suggestions {
+  color: #999;
+  padding: 0.5rem;
+}
+
+.customCL {
+  color: red !important;
+}
+
+.suggestions {
+  border: 1px solid #999;
+  border-top-width: 0;
+  list-style: none;
+  margin-top: 0;
+  overflow-y: auto;
+  padding-left: 0;
+  width: 300px;
+  padding: 0.5rem;
+  background-color: #f2f3f8;
+  color: #999;
+  cursor: pointer;
+  font-weight: 500;
+}
+.suggestion-active,
+.suggestions li:hover {
+  background-color: #008f68;
+  color: #fae042;
+  cursor: pointer;
+  font-weight: 700;
+}
+.suggestions li:not(:last-of-type) {
+  border-bottom: 1px solid #999;
+}
+
+
+
+
+.flex-container-mine {
+  display: grid;
+  grid-template-columns: 50px auto;
+  padding: 2px;
+  align-content: center;
+  align-items: center;
+  /* background-color: darkred; */
+}
+.flex-container-mine > div {
+  margin-top: 2px !important;
+}
+.flex-container-mine > img {
+  /* width: 36px; */
+  padding: 0px 2px;
+}
+label{
+  margin-bottom: 0px;
+}
+#price-res-color{
+  color: red !important;
+  font-size: 13px;
+  font-weight: 700;
+}
+.text-gray{
+  color: #999 !important;
+  font-weight: 400 !important;
+  font-size: 10px !important;
+}
+
+.hitTitle{
+  font-size: 12px !important;
+  color: #3a3a3a !important;
+  padding: 0px 0px !important;
+  margin: 0px !important;
+}
+
+/* Search SUBMIT button ui */
+.aa-InputWrapperPrefix{
+  order: 4 !important;
+  font-size: 13px !important;
+  /* background-color: #fbb403; */
+  border: 0px solid black;
+  border-radius: 10px;
+}
+
+div.aa-InputWrapperSuffix{
+  display: none;
+}
+
+/* searchbar ui */
+form.aa-Form{
+  border: 0px solid black;
+  height: 35px;
+  border-radius: 50px;
+  font-size: 13px;
+}
+
+input.aa-Input{
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+div.aa-InputWrapper{
+  box-shadow: none !important;
+}
+
+
+button.aa-SubmitButton{
+  padding: 0px;
+}
+button.aa-DetachedCancelButton {
+  font-size: 13px;
+}
+
+.text-category-suggestion{
+  color: #000000 !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+}
+
+#id_catogeryName{
+  color: #fbb403 !important;
+}
+
+.aa-ItemContentTitle{
+  font-size: 12px !important;
+}
+
+/* Algolia Brands Plugin CSS */
+.brand-btn{
+  background-color: #ffffff !important;
+  color: #000000;
+  width: fit-content;
+  padding: 5px 5px !important;
+  font-size: 10px !important;
+  border: 1px solid #f2f3f8 !important;
+  border-bottom: 1px solid rgba(146, 145, 145, 0.594) !important;
+  border-radius: 3px !important;
+}
+
+.text-logo-color{
+  color: #ff9900 ;
+}
+
+.lowermenu button.aa-DetachedSearchButton {
+  width: 30px;
+  height: 50px;
+  background: transparent;
+  border: none;
+  position: relative;
+  }
+  .lowermenu button.aa-DetachedSearchButton::before{
+    content: '\26B2';
+    position: absolute; 
+    top: 0;
+    color: #f2a51f;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    display: block;
+    font-size: 30px;
+  }
+.aa-Form textarea:focus, input:focus{
+    outline: none !important;
+}
+

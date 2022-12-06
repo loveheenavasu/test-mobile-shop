@@ -1,0 +1,32 @@
+.ms-brand {
+	color:  #2f75bb;
+	font-weight: 600;
+}
+
+.s-prc-w{
+	display: flex;
+	align-items: center;
+}
+
+._dsct._sm {
+    background-color: #feefde;
+	color: #f68b1e;
+	min-width: 32px;
+	height: 18px;
+	margin-left: 4px;
+	padding-left: 6px;
+	padding-right: 2px;
+	text-decoration: none;
+}
+.realprice{
+	font-size: 20px;
+}
+@media only screen and (max-width: 768px) {
+    .btn-cart{
+		font-size: 12px;
+		white-space: nowrap;
+	}
+	.btn-product-cart,.cartie{
+		height: 30px !important;
+	}
+}
